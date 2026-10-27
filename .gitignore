@@ -1,0 +1,30 @@
+# Qt / qmake 构建产物
+build/
+build-tests/
+*.o
+*.obj
+moc_*.cpp
+moc_*.h
+ui_*.h
+qrc_*.cpp
+Makefile
+Makefile.*
+.qmake.stash
+*.user
+*.user.*
+*.pro.user
+
+# 可执行文件与部署目录
+*.exe
+platforms/
+styles/
+imageformats/
+iconengines/
+translations/
+*.dll
+
+# 编辑器 / 系统文件
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
